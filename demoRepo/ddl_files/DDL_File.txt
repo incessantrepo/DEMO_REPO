@@ -1,6 +1,17 @@
-ALTER TABLE secondarySchema.TMS_STATE
- ADD  `TIME_ZONE` VARCHAR(255) DEFAULT NULL; 
- 
- UPDATE `secondarySchema`.`TMS_STATE` SET `TIME_ZONE`='Central Standard Time (CST)' WHERE `ID`='1';
-UPDATE `secondarySchema`.`TMS_STATE` SET `TIME_ZONE`='Alaska Standard Time (AKST)' WHERE `ID`='2';
-UPDATE `secondarySchema`.`TMS_STATE` SET `TIME_ZONE`='Mountain Standard Time (MST)' WHERE `ID`='3';
+DROP PROCEDURE IF EXISTS secondarySchema.alter_TSS;
+DELIMITER $$
+CREATE PROCEDURE `alter_TSS`()
+BEGIN
+
+IF NOT EXISTS (SELECT * from INFORMATION_SCHEMA.TABLES where Table_Name = 'TMS_STATES') THEN 
+CREATE TABLE `secondarySchema`.`TMS_STATES` (
+  `ID` INT NOT NULL,
+  `NAME` VARCHAR(45) NULL,
+  `CODE` VARCHAR(45) NULL,
+  PRIMARY KEY (`ID`));
+  
+INSERT INTO `secondarySchema`.`TMS_STATES` VALUES ('1', 'Alabama', 'AL'),('2', 'Alaska', 'AK'),('3', 'Arizona', 'AZ');
+end if;
+END $$
+
+call alter_TSS();

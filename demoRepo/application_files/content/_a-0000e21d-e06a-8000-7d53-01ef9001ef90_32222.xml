@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32612</versionUuid>
+    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32768</versionUuid>
     <rule>
         <name>TMS_uiSectionStateGrid</name>
         <uuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32222</uuid>
@@ -49,12 +49,13 @@
           label: "Code",
           field: "code",
           data: local!data.data.code
-        ),
-        #"SYSTEM_SYSRULES_gridTextColumn"(
-          label: "TimeZone",
-          field: "timeZone",
-          data: local!data.data.timeZone
         )
+        /*,*/
+        /*a!gridTextColumn(*/
+          /*label: "TimeZone",*/
+          /*field: "timeZone",*/
+          /*data: local!data.data.timeZone*/
+        /*)*/
       },
       value: local!pagingInfo,
       saveInto: local!pagingInfo
@@ -97,5 +98,6 @@
     <history>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32243"/>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32612"/>
+        <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32768"/>
     </history>
 </contentHaul>

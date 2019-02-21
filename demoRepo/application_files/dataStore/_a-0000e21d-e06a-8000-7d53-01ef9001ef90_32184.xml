@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32618</versionUuid>
+    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32763</versionUuid>
     <dataStore>
         <uuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32184</uuid>
         <name>TMS DataStore</name>
@@ -11,8 +11,8 @@
         <entities>
             <entity>
                 <uuid>45073277-2255-4f38-8ef9-8222ee13df25</uuid>
-                <name>TMS_State</name>
-                <type>{urn:com:appian:types:TMS}TMS_State</type>
+                <name>TMS_States</name>
+                <type>{urn:com:appian:types}TMS_States</type>
             </entity>
         </entities>
     </dataStore>
@@ -46,5 +46,6 @@
     <history>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32203"/>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32618"/>
+        <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32763"/>
     </history>
 </dataStoreHaul>

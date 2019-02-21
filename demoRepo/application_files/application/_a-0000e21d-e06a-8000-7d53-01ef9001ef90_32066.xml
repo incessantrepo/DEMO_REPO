@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>c5b95694-b5af-4a8f-a907-8c697f4bd3f1</versionUuid>
+    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32757</versionUuid>
     <application>
         <name>TMS Application</name>
         <uuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32066</uuid>
@@ -23,7 +23,7 @@
                 <item>
                     <type>datatype</type>
                     <uuids>
-                        <uuid>{urn:com:appian:types:TMS}TMS_State</uuid>
+                        <uuid>{urn:com:appian:types}TMS_States</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -263,6 +263,6 @@
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32244"/>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32309"/>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32417"/>
-        <historyInfo versionUuid="c5b95694-b5af-4a8f-a907-8c697f4bd3f1"/>
+        <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32757"/>
     </history>
-</applicationHaul><!--updated on 2019-02-21T12:58:18.085-->
+</applicationHaul><!--updated on 2019-02-21T15:57:28.520-->
