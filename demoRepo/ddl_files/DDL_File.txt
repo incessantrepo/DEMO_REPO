@@ -1,11 +1,6 @@
-CREATE TABLE `secondarySchema`.`TMS_STATE` (
-  `ID` INT NOT NULL,
-  `NAME` VARCHAR(45) NULL,
-  `CODE` VARCHAR(45) NULL,
-  PRIMARY KEY (`ID`));
-  
-INSERT INTO `secondarySchema`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('1', 'Alabama', 'AL');
-INSERT INTO `secondarySchema`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('2', 'Alaska', 'AK');
-INSERT INTO `secondarySchema`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('3', 'Arizona', 'AZ');
-  
-  
+ALTER TABLE secondarySchema.TMS_STATE
+ ADD  `TIME_ZONE` VARCHAR(255) DEFAULT NULL; 
+ 
+ UPDATE `secondarySchema`.`TMS_STATE` SET `TIME_ZONE`='Central Standard Time (CST)' WHERE `ID`='1';
+UPDATE `secondarySchema`.`TMS_STATE` SET `TIME_ZONE`='Alaska Standard Time (AKST)' WHERE `ID`='2';
+UPDATE `secondarySchema`.`TMS_STATE` SET `TIME_ZONE`='Mountain Standard Time (MST)' WHERE `ID`='3';

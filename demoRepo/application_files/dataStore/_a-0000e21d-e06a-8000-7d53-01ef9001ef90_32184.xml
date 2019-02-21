@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32203</versionUuid>
+    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32618</versionUuid>
     <dataStore>
         <uuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32184</uuid>
         <name>TMS DataStore</name>
@@ -45,5 +45,6 @@
     </roleMap>
     <history>
         <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32203"/>
+        <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32618"/>
     </history>
 </dataStoreHaul>
