@@ -1,11 +1,11 @@
-CREATE TABLE `secondarystore`.`TMS_STATE` (
+CREATE TABLE `secondarySchema`.`TMS_STATE` (
   `ID` INT NOT NULL,
   `NAME` VARCHAR(45) NULL,
   `CODE` VARCHAR(45) NULL,
   PRIMARY KEY (`ID`));
   
-INSERT INTO `secondarystore`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('1', 'Alabama', 'AL');
-INSERT INTO `secondarystore`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('2', 'Alaska', 'AK');
-INSERT INTO `secondarystore`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('3', 'Arizona', 'AZ');
+INSERT INTO `secondarySchema`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('1', 'Alabama', 'AL');
+INSERT INTO `secondarySchema`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('2', 'Alaska', 'AK');
+INSERT INTO `secondarySchema`.`TMS_STATE` (`ID`, `NAME`, `CODE`) VALUES ('3', 'Arizona', 'AZ');
   
   
