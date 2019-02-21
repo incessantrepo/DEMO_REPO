@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32203</versionUuid>
+    <dataStore>
+        <uuid>_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32184</uuid>
+        <name>TMS DataStore</name>
+        <description></description>
+        <dataSourceKey>jdbc/secondarySchema</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>false</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>45073277-2255-4f38-8ef9-8222ee13df25</uuid>
+                <name>TMS_State</name>
+                <type>{urn:com:appian:types:TMS}TMS_State</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role inherit="false" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000e21d-e06a-8000-7d53-01ef9001ef90_32203"/>
+    </history>
+</dataStoreHaul>
